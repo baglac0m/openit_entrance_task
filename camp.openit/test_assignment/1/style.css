@@ -19,13 +19,50 @@ body {
 }
 
 .card .header {
-	margin: 10px 0px 0px 10px;
+	margin: 10px 0px 10px 0px;
+	font-family: Helvetica;
+	font-weight: 600;
+}
+
+.card .header > * {
+	display: inline-block;
+}
+
+.card .header p {
+	margin-top: 0;
+}
+
+.card .header .three-dots {
+	float: right;
+	fill: #e0e2e5;
 }
 
 .row {
-	display: inline-block;
+	display: block;
 	width: 100%;
+	height: 51px;
 }
+
+.row > * {
+	display: inline-block;
+}
+
+.avatar {
+	height: 45px;
+	width: 45px;
+	border-radius: 3px;
+	margin-right: 20px;
+	text-align: center;
+}
+
+.avatar span {
+	line-height: 45px;
+}
+
+p.name {
+	text-align: right;
+}
+
 .text1 {
 	color: #98a0a6;
 	font-size: 15px;
